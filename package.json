@@ -9,14 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@notionhq/client": "^2.1.1",
     "daisyui": "^2.24.0",
     "next": "12.2.5",
-    "notion-client": "^6.13.4",
-    "notion-utils": "^6.13.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-notion-x": "^6.13.4",
     "react-simple-typewriter": "^3.0.1"
   },
   "devDependencies": {

@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Link from 'next/link'
 import { FC } from 'react'
 
 export const Navbar: FC = () => {
@@ -10,7 +11,7 @@ export const Navbar: FC = () => {
       <div className="flex-none">
         <ul className="menu menu-horizontal p-0">
           <li><a>About Me</a></li>
-          <li><a>Blogs</a></li>
+          <li><Link href="/blogs">Blogs</Link></li>
           <li><a>Works</a></li>
           <li><a>Contact</a></li>
         </ul>
